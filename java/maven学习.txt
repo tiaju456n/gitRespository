@@ -1,0 +1,14 @@
+	<modelVersion>4.0.0</modelVersion>
+    <groupId>org.springframework</groupId>
+    <artifactId>gs-maven</artifactId>
+    <packaging>jar</packaging>
+    <version>0.1.0</version>
+	
+以上是对自己的一个maven工程的描述。具体含义如下
+
+
+<modelVersion> POM模型的版本（只能是4.0.0）
+<groupId> 这个项目所属的组织，通常都是组织的域名的反写形式
+<artifactId> 这个项目产生的制品的名称，比如生成的JAR包或者WAR包的名称
+<version> 项目的版本，关于版本的描述策略， Spring推荐 语义化版本方法。
+<packaging> 项目如何打包，默认值为jar
